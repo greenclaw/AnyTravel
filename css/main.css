@@ -1,0 +1,323 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: white;
+    color: black;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14px;   
+}
+
+.nav .links-block {
+    display:flex;
+    align-items: center; 
+}
+
+.links-block .links ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.links-block .links ul li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .links-block .links ul li {
+    margin-right: 40px;
+}
+
+.links-block .links ul li:last-child {
+    margin-right: 0px;
+}
+
+.number {
+    margin-left: 80px;
+    margin-right: 20px;
+}
+
+.social {
+    display: flex;
+}
+
+.social > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+.page {
+    background-image: url(/img/solrg-F92jwDXuTHI-unsplash\ 1.svg);
+    height: 700px;
+}
+
+.about {
+    color: white;
+    padding-top: 200px;
+}
+
+.about-tittle {
+    font-size: 50px;
+    letter-spacing: 1px;
+    margin: 0px;
+
+}
+
+.desc {
+    font-size: 25px;
+    font-weight: 100;
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 45px;
+    opacity: 80%;
+}
+
+.video {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-bottom: 25px;
+}
+
+.video-desc {
+    margin-left: 22px;
+    font-weight: 300;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 260px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 100%;
+    height: 45px;
+    padding: 3px 0px;
+    border: 1px solid #40BCD7;
+    background: #40BCD7;
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.aside {
+    margin-top: 100px;
+}
+
+.aside-content {
+    display: flex;
+}
+
+.aside-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.subtitle {
+    text-align: center;
+    color: #424242;
+    width: 272px;
+    margin-top: 15px;
+    font-weight: 200;
+}
+
+.aside-block-img img{
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+.tours {
+    background-color: #F9F9F9;
+    margin-top: 100px;
+    height: 772px;
+}
+
+.tour-desc {
+    width: 370px;
+    height: 570px;
+    overflow: hidden;
+    margin: 15px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 15px -10px black;
+}
+
+.tours-tittle {
+    padding-top: 40px;
+    padding-left: 15px;
+}
+.colortext {
+    color: #5C5C5C;
+}
+.tour-desc-img img {
+    display: block;
+    width: 100%;
+}
+
+.desc-block {
+    padding: 15px;
+}
+
+.tour-heading {
+    font-size: 20px;
+    padding-top: 10px;
+
+}
+
+.tour-subtitle {
+    font-size: 16px;
+   
+}
+
+.button-detail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    color: white;
+    padding-top: 20px;
+}
+
+/* Стили для слайдера */
+.slick-prev {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -50px;
+}
+
+.slick-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -50px;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex !important;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.slick-dots li{
+    padding: 0 10px;
+}
+
+.slick-dots li button{
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    background: #40BCD7;
+    color: #40BCD7;
+    opacity: 0.4;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.slick-active button, .slick-dots li button:hover{
+    opacity: 0.6 !important;
+}
+
+.buttonPrice {
+    display: flex;
+    justify-content: space-between;
+}
+.price {
+    color: #3FE46B;
+    display: flex;
+    font-size: 20px;
+    padding: 40px 20px 0px 0px;
+}
+
+
+.application {
+    background: url(/img/footer.jpg) no-repeat;
+    height: 650px;
+    padding-top: 80px;
+}
+
+.form {
+    background-color: white;
+    width: 522px;
+    height: 440px;
+    border-radius: 10px;
+}
+
+.field {
+    padding: 50px;
+}
+
+.application-tittle {
+    margin: 0;
+    padding-bottom: 10px;
+    font-size: 35px;
+}
+
+input {
+    width: 388px;
+    height: 45px;
+    padding-left: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.form-desc {
+    color: #424242;
+    font-weight: 200;
+    padding-bottom: 20px;
+}
+
+.button-long {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 415px;
+}
+
+.footer {
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-bottom: 5px;
+    color: black;
+    opacity: 50%;
+    font-size: 16px;
+    font-weight: 300;
+}
