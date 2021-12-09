@@ -171,6 +171,7 @@ body {
 .tours-tittle {
     padding-top: 40px;
     padding-left: 15px;
+    
 }
 .colortext {
     color: #5C5C5C;
@@ -205,6 +206,7 @@ body {
 }
 
 /* Стили для слайдера */
+
 .slick-prev {
     position: absolute;
     top: 50%;
@@ -250,6 +252,8 @@ body {
     opacity: 0.6 !important;
 }
 
+
+
 .buttonPrice {
     display: flex;
     justify-content: space-between;
@@ -266,6 +270,7 @@ body {
     background: url(/img/footer.jpg) no-repeat;
     height: 650px;
     padding-top: 80px;
+    margin-top: 100px;
 }
 
 .form {
@@ -320,4 +325,65 @@ input {
     opacity: 50%;
     font-size: 16px;
     font-weight: 300;
+}
+
+
+.reviews-desc {
+   padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px -10px black;
+}
+
+.user-info {
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    padding-left: 20px;
+}
+
+.reviews-user-info {
+    display: flex;
+}
+
+.rew-color {
+    color: #40BCD7;
+}
+
+.review {
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 1.3;
+    padding-top: 12px;
+}
+
+.reviews {
+    margin-bottom: 100px;
+}
+
+.about-anytravel {
+    display: flex;
+}
+
+.about-anytravel-agency {
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+    padding-left: 15px;
+}
+
+.anytravel-desc {
+    flex: 1;
+}
+
+.anytravel-desc p {
+    font-weight: 200;
+    margin: 0;
+    padding-bottom: 25px;
+}
+
+.agency-img img{
+    display: block;
 }
